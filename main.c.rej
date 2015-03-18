@@ -1,0 +1,10 @@
+diff a/main.c b/main.c	(rejected hunks)
+@@ -10,7 +10,7 @@
+ 	int number1, number2, result;
+ 	char operator;
+ 	
+-	printf("수식을 입력하세요: ");
++	printf("수식을 입력하세요 : ");
+ 	scanf("%d %c %d", &number1, &operator, &number2);
+ 	
+ 	switch (operator)
